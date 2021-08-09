@@ -89,6 +89,21 @@ html {
   .flap.under {
     animation: fade-under 300ms ease-in both;
   }
+
+footer{
+  color: #FBFBFB;
+  font-family: sans-serif;
+  font-stretch: normal;
+  font-size: 35px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  footer{
+    font-size: 20px;
+  }
+}
   @keyframes flip-down-front {
     0% {
       transform: rotateX(0deg);
